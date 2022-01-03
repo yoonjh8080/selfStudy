@@ -1,6 +1,6 @@
 import javax.xml.transform.Templates;
 
-public class timesTable {
+public class TimesTable {
 
 	public static void main(String[] args) {
 
