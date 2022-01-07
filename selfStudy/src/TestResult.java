@@ -30,8 +30,7 @@ public class TestResult {
 			 default:
 				 grade = 'F';
 		}
-		
-		System.out.println(grade);
+		 System.out.println(grade);
 		sc.close();
 	}
 

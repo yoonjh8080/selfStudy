@@ -8,8 +8,6 @@ public class AlarmClock {
 		int H = sc.nextInt();
 		int M = sc.nextInt();
 		
-		// 0시 00분~ 44분 일때는 H를 23으로 변경 , 그외에는 H-1해주면됨
-		
 		if(H == 0)
 		{
 			if(M < 45) {
@@ -28,8 +26,6 @@ public class AlarmClock {
 				System.out.println(H + " " + (M-45));
 			}
 		}
-		
 		sc.close();
 	}
-
 }
